@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>playlist_Artist</key>
+	<array>
+		<string>Solid Stone, Jennifer Rene</string>
+		<string>Daxson</string>
+		<string>Markus Schulz</string>
+		<string>Factor B</string>
+		<string>Craig Connelly, James Cottle</string>
+		<string>Jean Luc, Nick Jay</string>
+		<string>Daxson</string>
+		<string>Arkham Knights</string>
+		<string>Camephat &amp; Lowes</string>
+		<string>Daxson</string>
+		<string>Emma Hewitt, Daxson</string>
+		<string>Numa, Daxson</string>
+		<string>Sunlounger, Susie Ledge</string>
+		<string>Cold Blue</string>
+		<string>Steve Allen</string>
+		<string>Driftmoon</string>
+		<string>Jennifer Rene, Somna</string>
+		<string>John O'Callaghan</string>
+		<string>Cold Blue</string>
+		<string>EnMass</string>
+		<string>Metta &amp; Glyde</string>
+	</array>
+	<key>playlist_TimeStamp</key>
+	<array>
+		<integer>0</integer>
+		<integer>20917248</integer>
+		<integer>34094080</integer>
+		<integer>46373888</integer>
+		<integer>56217600</integer>
+		<integer>71456768</integer>
+		<integer>80089088</integer>
+		<integer>95191040</integer>
+		<integer>110791680</integer>
+		<integer>124341248</integer>
+		<integer>138009600</integer>
+		<integer>154512384</integer>
+		<integer>170392576</integer>
+		<integer>185815040</integer>
+		<integer>204073984</integer>
+		<integer>218114048</integer>
+		<integer>235059200</integer>
+		<integer>249738240</integer>
+		<integer>267287552</integer>
+		<integer>279612416</integer>
+		<integer>298440704</integer>
+	</array>
+	<key>playlist_Title</key>
+	<array>
+		<string>Pushing Up (Arkham Knights Dark Path Remix)</string>
+		<string>Hakuba (Extended Mix)</string>
+		<string>Sunrise Over the Bay (Daxson Extended Remix)</string>
+		<string>Sea of Thoughts (Original Mix)</string>
+		<string>Got To Give (Extended Mix)</string>
+		<string>Ayla 2023 (Extended Mix)</string>
+		<string>Stargazing (Extended Mix)</string>
+		<string>Se7en Seconds Until Transfer (Extended Mix)</string>
+		<string>Easier (Daxson Bootleg)</string>
+		<string>Who We Are (Extended Mix)</string>
+		<string>WARRIOR (Extended Mix)</string>
+		<string>The Only Way (Extended Mix)</string>
+		<string>Don't Stop Me From Falling (Craig Connelly Extended Remix)</string>
+		<string>The Morning After (Extended Mix)</string>
+		<string>Arafel (Extended Mix)</string>
+		<string>Please Don't Go (Suncatcher Extended Remix)</string>
+		<string>Stars Collide (XiJaro &amp; Pitch Extended Remix)</string>
+		<string>Big Sky feat. Audrey Gallagher (Agnelli &amp; Nelson Remix)</string>
+		<string>Dance of the Giraffes (Extended Mix)</string>
+		<string>CQ (Seek You) (Original Mix)</string>
+		<string>Who We Are (Original Mix)</string>
+	</array>
+	<key>plist_AudioDuration</key>
+	<string>01:49:05</string>
+	<key>plist_Format</key>
+	<string>AAC 320kbps</string>
+	<key>plist_ReleaseDate</key>
+	<integer>1708801567</integer>
+	<key>plist_SampleRate</key>
+	<real>48000</real>
+	<key>plist_Tag</key>
+	<array>
+		<string>DJM-REC</string>
+	</array>
+	<key>plist_Title</key>
+	<string>REC_20240224_4.m4a</string>
+	<key>plist_UpdateDate</key>
+	<integer>1708801567</integer>
+</dict>
+</plist>

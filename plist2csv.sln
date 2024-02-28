@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "plist2csv.NET4.8", "plist2c
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "plist2csv.NET8.0", "plist2csv.NET8.0\plist2csv.NET8.0.csproj", "{E25B36DF-9790-45C4-9284-563F8C997D81}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "example_data", "example_data\example_data.shproj", "{AC770732-82C7-4DCE-B650-4861AD7240BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,7 @@ Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		src\src.projitems*{454d4090-d9eb-4eb2-a989-ce55d4a9d01e}*SharedItemsImports = 4
 		src\src.projitems*{8fa2daba-0a9a-45a0-ba4e-11bf5ae86c03}*SharedItemsImports = 13
+		example_data\example_data.projitems*{ac770732-82c7-4dce-b650-4861ad7240ba}*SharedItemsImports = 13
 		src\src.projitems*{e25b36df-9790-45c4-9284-563f8c997d81}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal
