@@ -1,17 +1,24 @@
-﻿using System.IO;
-
-using System.Collections.Generic;
-
+﻿using System.Collections.Generic;
+using System.IO;
 
 namespace playlist2csv
 {
+    /// <summary>
+    /// Super simple class to convert a Pioneer DJM-REC app DTD PLIST XML playlist to a common separated file 
+    /// whose contents can be cut and paste into a Mixcloud shows “Tracklist & Timestamp” section.
+    /// </summary>
     internal class CsvMixCloudWriter
     {
-        internal static void WriteCsv(string output_path, PlayList play_list)
+        /// <summary>
+        /// Writes the playlist to the given output file
+        /// </summary>
+        /// <param name="output_file">The output file name.</param>
+        /// <param name="play_list">The play list to write out to the CSV file.</param>
+        internal static void WriteCsv(string output_file, PlayList play_list)
         {
             List<Track> tracks = play_list.Tracks;
 
-            using (var w = new StreamWriter(output_path))
+            using (StreamWriter writer = new StreamWriter(output_file))
             {
                 foreach (var track in tracks) 
                 {                   
@@ -20,20 +27,38 @@ namespace playlist2csv
                     string time_stamp = convertIntTimeStampToString(track.TimeStamp, play_list.SampleRate);
 
                     string line = formatted_artist + "," + formatted_title + "," + time_stamp;
-                    w.WriteLine(line);
-                    w.Flush();
+                    writer.WriteLine(line);
+                    writer.Flush();
                 }
             }
         }
 
+
+        /// <summary>
+        /// Method to format a string suitable for a Mixcloud entry in either 
+        /// the 'Artist' or 'Track Name' columns
+        /// </summary>
+        /// <param name="input_string">The unformatted string.</param>
+        /// <returns>The formatted string.</returns>
         private static string format_string(string input_string)
         {
+            // Replace the Apple DTD PLIST XML '&amp;' text entry with a simple '&'
             string output_string = input_string.Replace("&amp;", "&");
+
+            // No easy way to get a comma into the CSV file which Mixcloud can read. For now
+            // convert the comma to an ampersand which reads well in most cases.
             output_string = output_string.Replace(",", " &");
 
             return output_string;
         }
 
+
+        /// <summary>
+        /// Converts an Apple DTD PLIST time stamp from an integer value to a time elapsed string 
+        /// </summary>
+        /// <param name="time_stamp">An integer value from the playlist_TimeStamp array section of the Apple DTD PLIST.</param>
+        /// <param name="sample_rate">The sample rate specified in the same Apple DTD PLIST </param>
+        /// <returns></returns>
         private static string convertIntTimeStampToString(int time_stamp, double sample_rate)
         {
 

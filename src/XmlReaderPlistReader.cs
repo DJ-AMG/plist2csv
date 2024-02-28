@@ -9,6 +9,11 @@ using System.Xml;
 
 namespace playlist2csv
 {
+
+    /// <summary>
+    /// Utility class to read an Apple DTD PLIST XML file, as produced by Pioneer's DJM-REC app into an in memory 
+    /// representation of the play list. 
+    /// </summary>
     internal class XmlReaderPlistReader
     {
         public static PlayList ReadPlaylist(string file_path)
