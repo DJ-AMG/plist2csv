@@ -9,6 +9,7 @@ namespace playlist2csv
     /// <summary>
     /// Class representing a single track in the play list (set). 
     /// </summary>
+    /// 
     internal class Track
     {
         /// <summary>
