@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "src", "src\src.shproj", "{8FA2DABA-0A9A-45A0-BA4E-11BF5AE86C03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "plist2csv.NET4.8", "plist2csv.NET4.8\plist2csv.NET4.8.csproj", "{454D4090-D9EB-4EB2-A989-CE55D4A9D01E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "plist2csv.NET8.0", "plist2csv.NET8.0\plist2csv.NET8.0.csproj", "{E25B36DF-9790-45C4-9284-563F8C997D81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{454D4090-D9EB-4EB2-A989-CE55D4A9D01E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{454D4090-D9EB-4EB2-A989-CE55D4A9D01E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{454D4090-D9EB-4EB2-A989-CE55D4A9D01E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{454D4090-D9EB-4EB2-A989-CE55D4A9D01E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E25B36DF-9790-45C4-9284-563F8C997D81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E25B36DF-9790-45C4-9284-563F8C997D81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E25B36DF-9790-45C4-9284-563F8C997D81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E25B36DF-9790-45C4-9284-563F8C997D81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {037FD512-0855-4EE5-85C8-04C435AB0BD4}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		src\src.projitems*{454d4090-d9eb-4eb2-a989-ce55d4a9d01e}*SharedItemsImports = 4
+		src\src.projitems*{8fa2daba-0a9a-45a0-ba4e-11bf5ae86c03}*SharedItemsImports = 13
+		src\src.projitems*{e25b36df-9790-45c4-9284-563f8c997d81}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal

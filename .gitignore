@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/plist2csv.NET4.8/bin/Release
+/plist2csv.NET4.8/obj
+/plist2csv.NET8.0/bin/Release/net8.0
+/plist2csv.NET8.0/obj
