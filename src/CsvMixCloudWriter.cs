@@ -4,10 +4,9 @@ using System.IO;
 namespace playlist2csv
 {
     /// <summary>
-    /// Super simple class to convert a Pioneer DJM-REC app DTD PLIST XML playlist to a common separated file 
-    /// whose contents can be cut and paste into a Mixcloud shows “Tracklist & Timestamp” section.
+    /// Super simple class to write a playlist to a comma seperated values file, whose contents can be 
+    /// cut and paste into a Mixcloud shows “Tracklist & Timestamp” section.
     /// </summary>
-    /// 
     internal class CsvMixCloudWriter
     {
         /// <summary>
