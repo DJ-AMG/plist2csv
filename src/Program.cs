@@ -14,6 +14,8 @@ using playlist2csv;
 /// For more information on Mixcloud show see:
 ///     https://help.mixcloud.com/hc/en-us/categories/9923253343900-Shows-and-tracks
 ///
+/// Tested with 2xCDJ-3000, DJM-A9 and DJM-REC app running on ipad Mini 6 iPasOs 17.4
+/// 
 /// </summary>
 class Program
 {
