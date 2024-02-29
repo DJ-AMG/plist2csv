@@ -26,7 +26,7 @@ namespace playlist2csv
                     string formatted_title = format_string(track.Title);
                     string time_stamp = convertIntTimeStampToString(track.TimeStamp, play_list.SampleRate);
 
-                    string line = formatted_artist + "," + formatted_title + "," + time_stamp;
+                    string line = formatted_artist + "," + formatted_title + "\t" + time_stamp;
                     writer.WriteLine(line);
                     writer.Flush();
                 }
