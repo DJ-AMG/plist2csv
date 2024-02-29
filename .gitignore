@@ -7,3 +7,6 @@
 /plist2csv.NET4.8/obj
 /plist2csv.NET8.0/bin/Release/net8.0
 /plist2csv.NET8.0/obj
+/plist2csv.NET4.8/bin/Debug
+/plist2csv.NET8.0/bin/Debug/net8.0
+/plist2csv.NET4.8/plist2csv.NET4.8.csproj.user
