@@ -85,7 +85,7 @@ class Program
     {
         string unique_output_file_path;
 
-        int count = 1;
+        int count = 0;
         bool file_exists;
 
         string directory = Path.GetDirectoryName(output_file_name); 
@@ -94,9 +94,11 @@ class Program
 
         do
         {
+            count++;
+
             string unique_output_file_name = base_name + " (" + count.ToString() + ")"  + extension;
 
-            unique_output_file_path = (directory == null) ? unique_output_file_name : directory + "\\" + unique_output_file_name;
+            unique_output_file_path = (directory == null || directory.Length == 0) ? unique_output_file_name : directory + "\\" + unique_output_file_name;
 
             FileInfo fileInfo = new FileInfo(unique_output_file_path);
             file_exists = fileInfo.Exists;
