@@ -25,7 +25,8 @@ namespace playlist2csv
                     string formatted_artist = format_string(track.Artist);
                     string formatted_title = format_string(track.Title);
                     string time_stamp = convertIntTimeStampToString(track.TimeStamp, play_list.SampleRate);
-
+                    // Issue #1 - Mixcloud seems to insert a comma to the end of the title if included between 
+                    //            the title and time stamp. For some reason it wants a whitespace instread.
                     string line = formatted_artist + "," + formatted_title + "\t" + time_stamp;
                     writer.WriteLine(line);
                     writer.Flush();
